@@ -1,0 +1,238 @@
+========================================================================
+#Nstep =    0, time =    0.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.96853
+   Bond length group 2 : 1- 3   0.96850
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    102.7513
+  
+========================================================================
+#Nstep =    1, time =    0.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.97347
+   Bond length group 2 : 1- 3   0.97508
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    102.9324
+  
+========================================================================
+#Nstep =    2, time =    1.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.98414
+   Bond length group 2 : 1- 3   0.98724
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    102.9052
+  
+========================================================================
+#Nstep =    3, time =    1.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.99884
+   Bond length group 2 : 1- 3   1.00296
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    102.6698
+  
+========================================================================
+#Nstep =    4, time =    2.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.01546
+   Bond length group 2 : 1- 3   1.01996
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    102.2425
+  
+========================================================================
+#Nstep =    5, time =    2.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.03187
+   Bond length group 2 : 1- 3   1.03607
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    101.6456
+  
+========================================================================
+#Nstep =    6, time =    3.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.04619
+   Bond length group 2 : 1- 3   1.04951
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    100.9015
+  
+========================================================================
+#Nstep =    7, time =    3.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.05699
+   Bond length group 2 : 1- 3   1.05892
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3    100.0281
+  
+========================================================================
+#Nstep =    8, time =    4.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.06321
+   Bond length group 2 : 1- 3   1.06341
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     99.0377
+  
+========================================================================
+#Nstep =    9, time =    4.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.06419
+   Bond length group 2 : 1- 3   1.06246
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     97.9439
+  
+========================================================================
+#Nstep =   10, time =    5.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.05967
+   Bond length group 2 : 1- 3   1.05604
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     96.7775
+  
+========================================================================
+#Nstep =   11, time =    5.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.05005
+   Bond length group 2 : 1- 3   1.04477
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     95.5804
+  
+========================================================================
+#Nstep =   12, time =    6.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.03635
+   Bond length group 2 : 1- 3   1.02993
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     94.3980
+  
+========================================================================
+#Nstep =   13, time =    6.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.02013
+   Bond length group 2 : 1- 3   1.01328
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     93.2800
+  
+========================================================================
+#Nstep =   14, time =    7.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.00337
+   Bond length group 2 : 1- 3   0.99697
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     92.2827
+  
+========================================================================
+#Nstep =   15, time =    7.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.98830
+   Bond length group 2 : 1- 3   0.98328
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     91.4671
+  
+========================================================================
+#Nstep =   16, time =    8.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.97710
+   Bond length group 2 : 1- 3   0.97428
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     90.8916
+  
+========================================================================
+#Nstep =   17, time =    8.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.97148
+   Bond length group 2 : 1- 3   0.97147
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     90.6033
+  
+========================================================================
+#Nstep =   18, time =    9.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.97260
+   Bond length group 2 : 1- 3   0.97560
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     90.6367
+  
+========================================================================
+#Nstep =   19, time =    9.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.98055
+   Bond length group 2 : 1- 3   0.98626
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     90.9999
+  
+========================================================================
+#Nstep =   20, time =   10.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   0.99404
+   Bond length group 2 : 1- 3   1.00169
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     91.6573
+  
+========================================================================
+#Nstep =   21, time =   10.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.01091
+   Bond length group 2 : 1- 3   1.01955
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     92.5497
+  
+========================================================================
+#Nstep =   22, time =   11.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.02873
+   Bond length group 2 : 1- 3   1.03737
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     93.6135
+  
+========================================================================
+#Nstep =   23, time =   11.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.04519
+   Bond length group 2 : 1- 3   1.05298
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     94.7914
+  
+========================================================================
+#Nstep =   24, time =   12.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.05837
+   Bond length group 2 : 1- 3   1.06465
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     96.0376
+  
+========================================================================
+#Nstep =   25, time =   12.50 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
+   Bond length group 1 : 1- 2   1.06686
+   Bond length group 2 : 1- 3   1.07121
+You have chosen  1  bond angle groups, here they are(in degree): 
+   Bond angle group 1 : 2- 1- 3     97.3185
+  
+========================================================================
+#Nstep =   26, time =   13.00 fs, using Velocity Verlet.
+========================================================================
+You have chosen  2  bond length groups, here they are(in Angstroms): 
