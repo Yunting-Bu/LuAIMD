@@ -37,8 +37,11 @@ contains
 		character(len=3) anlg_label
 		real(kind=f8) :: creal,creal2int
 		integer :: n,status,i,j,k,l,cint,count,nbas_c,nprm_c
+		character(len=256) :: basis_path
 
-    open(unit=10,file='basis/'//trim(basis_name),status='old')
+
+	call get_environment_variable('LUAIMD_HOME', basis_path)
+    open(unit=10,file=trim(basis_path)//'/basis/'//trim(basis_name),status='old')
 !locate the atom
 	rewind(10)
 	call loclabel(10,trim(elem_label)//'     0')
@@ -133,7 +136,7 @@ contains
 	end do 
 	close(10)
 
-	open(unit=9,file='atom.dat',status='old')
+	open(unit=9,file=trim(basis_path)//'/basis/atom.dat',status='old')
 	rewind(9)
 	call loclabel(9,trim(elem_label))
 	read(9,*) ctmp

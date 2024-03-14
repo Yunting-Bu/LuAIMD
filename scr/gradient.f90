@@ -79,10 +79,10 @@ implicit none
         ebas = ibas + bas_in_grad(iatm)%atom_nbas - 1
         temp1(iatm,ibas:ebas,:,:,:,:) = - cint_in_grad%iperi(ibas:ebas,:,:,:,:)   
     end do
-    do i=1,cint_in_grad%nbas 
-        do j=1,cint_in_grad%nbas
-            do k=1,cint_in_grad%nbas
-                do l=1,cint_in_grad%nbas                                       
+    do l=1,cint_in_grad%nbas 
+        do k=1,cint_in_grad%nbas
+            do j=1,cint_in_grad%nbas
+                do i=1,cint_in_grad%nbas                                       
                     this%deri(:,i,j,k,l,:) = this%deri(:,i,j,k,l,:) &
                                                 + temp1(:,i,j,k,l,:) + temp1(:,j,i,k,l,:)&
                                                 + temp1(:,k,l,i,j,:) + temp1(:,l,k,i,j,:)
@@ -140,18 +140,18 @@ implicit none
         end do 
     end do 
     part1 = 0.0_f8
-        do i=1,cint_in_grad%nbas 
-            do j=1,cint_in_grad%nbas
+        do j=1,cint_in_grad%nbas 
+            do i=1,cint_in_grad%nbas
                 part1(:,1) = part1(:,1) + scf_in_grad%P(i,j)*this%dH(:,i,j,1)
                 part1(:,2) = part1(:,2) + scf_in_grad%P(i,j)*this%dH(:,i,j,2)
                 part1(:,3) = part1(:,3) + scf_in_grad%P(i,j)*this%dH(:,i,j,3)
             end do 
         end do 
     part2 = 0.0_f8
-        do i=1,cint_in_grad%nbas 
-            do j=1,cint_in_grad%nbas
-                do k=1,cint_in_grad%nbas
-                    do l=1,cint_in_grad%nbas
+        do l=1,cint_in_grad%nbas 
+            do k=1,cint_in_grad%nbas
+                do j=1,cint_in_grad%nbas
+                    do i=1,cint_in_grad%nbas
                         part2(:,1) = part2(:,1) &
                                         + (0.5_f8*scf_in_grad%P(i,j)*scf_in_grad%P(k,l) &
                                         -0.25_f8*scf_in_grad%P(i,k)*scf_in_grad%P(j,l)) &
@@ -189,8 +189,8 @@ implicit none
             end do
         end do
     end do
-    do i=1,scf_in_grad%nocc
-        do j=1,scf_in_grad%nocc
+    do j=1,scf_in_grad%nocc
+        do i=1,scf_in_grad%nocc
             part3(:,1) = 2.0_f8 * F_mo(i,j) * dS_mo(:,i,j,1) + part3(:,1)
             part3(:,2) = 2.0_f8 * F_mo(i,j) * dS_mo(:,i,j,2) + part3(:,2)
             part3(:,3) = 2.0_f8 * F_mo(i,j) * dS_mo(:,i,j,3) + part3(:,3)

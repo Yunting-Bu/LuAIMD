@@ -9,7 +9,7 @@ use output
 implicit none 
 
 character(len=7) :: basis_name
-character(len=200) :: input_name='input'
+character(len=200) :: input_name
 type(atom_basis_info),dimension(:),allocatable :: atom_bas0 
 type(mole_input_info) :: mole0
 type(cint_info) :: cint0
@@ -23,13 +23,20 @@ integer :: hour
 integer :: min 
 integer :: sec 
 integer :: i,j,k,l,status
+character(len=100) :: namepre
+integer :: str_len
 
+
+write (*,'(1x,a)') 'Please enter the input file: '
+read(*,*) input_name
+str_len = len_trim(input_name)
+namepre = adjustl(input_name(1:str_len-4))
 call cpu_time(cpu_start_time)
-write(*,'(1x,a,/)')'======================================================================================='
+write(*,'(/,1x,a,/)')'======================================================================================='
 write(*,'(1x,20x,a,20x,/)') 'LuAIMD: An ab initio molecular dynamics program'
 write(*,'(1x,32x,a,26x,/)') 'Author: Yun-ting Bu'
 write(*,'(1x,a,/)')'======================================================================================='
-open(99,file='output',status='replace')
+open(99,file=trim(namepre)//'.out',status='replace')
 call out_title()
 write(*,"(1x,a)") 'Read the input...'
 call mole0%set_input(trim(input_name))
