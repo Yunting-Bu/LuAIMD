@@ -1,7 +1,7 @@
 $QC_ctrl
-    method:                  hf
-    basis:                   6-31G
-    grad:                    analy
+    method:                  mp2(fc)
+    basis:                   6-31G**
+    grad:                    num
     guess:                   Huckel
     damp:                    0.5
     DIIS:                    .true.
@@ -11,7 +11,7 @@ $MD_ctrl
     method:                  Velocity_Verlet
     init_temp:               298.15
     dt:                      0.5
-    Nstep:                   2000
+    Nstep:                   1000
     thermostat:              Berendsen
     bath_temp:               298.15
     con_time:                30.0

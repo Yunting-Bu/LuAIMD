@@ -1,7 +1,7 @@
 $QC_ctrl
-    method:                  hf
-    basis:                   6-31G
-    grad:                    analy
+    method:                  mp2(fc)
+    basis:                   sto-3g
+    grad:                    num
     guess:                   Huckel
     damp:                    0.5
     DIIS:                    .true.
@@ -11,20 +11,20 @@ $MD_ctrl
     method:                  Velocity_Verlet
     init_temp:               298.15
     dt:                      0.5
-    Nstep:                   2000
+    Nstep:                   1000
     thermostat:              Berendsen
     bath_temp:               298.15
     con_time:                30.0
 $end 
 
 $MOLE_analy
-    number_of_bond_length:   2
+    number_of_bond_length:   -1
     list:                    1,2 1,3
-    number_of_bond_angle:    1
+    number_of_bond_angle:    -1
     list:                    2,1,3
 $end 
 
 $geom
     0 1
-    H2O.xyz
+    NH3.xyz
 $end

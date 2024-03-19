@@ -151,7 +151,7 @@ implicit none
                                                      +(vel(i,3))**2.0)
     end do 
     this%kin = 0.5_f8 * vtemp 
-    this%pot = scf_in_md%Ent - this%kin 
+    this%pot = scf_in_md%Ent
 end subroutine
 
 subroutine cal_temp_sub(this,cint_in_md)
@@ -404,11 +404,13 @@ implicit none
     integer,intent(in) :: nstep
     integer :: i
     if (trim(mole_in_md%QC_method)=='hf') then
-    write(99,"(F8.2,3x,F16.10,3x,F16.10,3x,F16.10,3x,F8.2,3x,F10.3,3x,F10.3)") this%dt*nstep/fs2au,scf_in_md%Ent,&
+    write(99,"(F8.2,3x,F16.10,3x,F16.10,3x,F16.10,3x,F8.2,3x,F10.3,3x,F10.3)") this%dt*nstep/fs2au,scf_in_md%Ent+this%kin,&
                                                                                this%kin,this%pot,this%temp_cal,scf_time,grad_time
     else if (trim(mole_in_md%QC_method)=='mp2(fc)' .or. trim(mole_in_md%QC_method)=='mp2(full)') then
-    write(99,"(F8.2,3x,F16.10,3x,F16.10,3x,F16.10,3x,F8.2,3x,F10.3,3x,F10.3)") this%dt*nstep/fs2au,scf_in_md%Ent+scf_in_md%Emp2,&
-                                                                               this%kin,this%pot,this%temp_cal,scf_time,grad_time
+    write(99,"(F8.2,3x,F16.10,3x,F16.10,3x,F16.10,3x,F8.2,3x,F10.3,3x,F10.3)") this%dt*nstep/fs2au,&
+                                                                               scf_in_md%Ent+this%kin+scf_in_md%Emp2,&
+                                                                               this%kin,this%pot+scf_in_md%Emp2,&
+                                                                               this%temp_cal,scf_time,grad_time
     end if
 end subroutine
 
