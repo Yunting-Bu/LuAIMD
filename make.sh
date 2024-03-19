@@ -12,10 +12,10 @@ gfortran -c gradient.f90
 gfortran -c md.f90
 gfortran -c main.f90
 
-gfortran -fopenmp -g -o LuAIMD \
+gfortran -g -o LuAIMD \
 machina_basic.o read_input.o basis.o cint.o scf.o gradient.o md.o output.o main.o \
 lapack.a blas.a \
-/home/byt/software/libcint/lib/libcint.so  # Replace PATH with the actual path.
+/PATH/libcint.so  # Replace PATH with the actual path.
 
 rm *.o
 rm *.mod
